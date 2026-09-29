@@ -11,7 +11,7 @@ export default function WalletTeaserSection(): React.JSX.Element {
         <SectionErrorBoundary name="wallet-teaser">
               <MetricsMediaCards
           tag="Beta Access"
-          title="1-Tap Apple & Google Wallet Loyalty System"
+          title="1-Tap Apple Wallet Loyalty System"
           description="When a customer taps your card, a digital loyalty card is saved straight into their wallet. Automate engagement and bring them back."
           primaryButton={{
             text: "Join the Beta Waitlist",
@@ -25,9 +25,9 @@ export default function WalletTeaserSection(): React.JSX.Element {
               imageSrc: "http://img.b2bpic.net/free-photo/army-soldier-reviews-targets-satellite-world-map-ensure-global-protection_482257-91236.jpg",
             },
             {
-              value: "Push",
-              title: "Automated Returns",
-              description: "Personalized notifications.",
+              value: "",
+              title: "Automated",
+              description: "personalized",
               imageSrc: "http://img.b2bpic.net/free-photo/email-alert-popup-reminder-concept_53876-123868.jpg",
             },
             {
