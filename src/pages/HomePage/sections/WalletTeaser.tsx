@@ -66,42 +66,21 @@ const WalletTeaserInline = () => (
         )}
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 w-content-width mx-auto">
-        {metrics.map((metric, index) => {
-          const isEven = index % 2 === 1;
-          const isLast = index === metrics.length - 1;
-          const isOddTotal = metrics.length % 2 !== 0;
-          const shouldSpanFull = isLast && isOddTotal;
-
-          return (
-            <ScrollReveal
-              variant="slide-up"
-              key={metric.value}
-              className={cls("grid grid-cols-2 gap-5", shouldSpanFull && "md:col-span-2")}
-            >
-              <div className={cls(
-                "flex flex-col justify-between gap-4 xl:gap-5 2xl:gap-6 p-6 xl:p-7 2xl:p-8 card rounded",
-                shouldSpanFull ? "aspect-square md:aspect-video" : "aspect-square",
-                isEven && "order-2 md:order-1"
-              )}>
-                <span className="text-5xl md:text-6xl font-semibold leading-snug truncate">{metric.value}</span>
-                <div className="flex flex-col gap-2 min-w-0">
-                  <span className="text-xl md:text-2xl font-semibold truncate">{metric.title}</span>
-                  <div className="w-full h-px bg-accent" />
-                  <p className="text-base leading-snug truncate">{metric.description}</p>
-                </div>
-              </div>
-
-              <div className={cls(
-                "rounded overflow-hidden",
-                shouldSpanFull ? "aspect-square md:aspect-video" : "aspect-square",
-                isEven && "order-1 md:order-2"
-              )}>
-                <ImageOrVideo imageSrc={metric.imageSrc} videoSrc={metric.videoSrc} />
-              </div>
-            </ScrollReveal>
-          );
-        })}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-content-width mx-auto">
+        {metrics.map((metric) => (
+          <ScrollReveal
+            variant="slide-up"
+            key={metric.value}
+            className="flex flex-col justify-between gap-4 p-6 xl:p-8 card rounded min-h-[220px]"
+          >
+            <span className="text-4xl md:text-5xl font-semibold leading-snug">{metric.value}</span>
+            <div className="flex flex-col gap-2 min-w-0">
+              <span className="text-xl md:text-2xl font-semibold">{metric.title}</span>
+              <div className="w-full h-px bg-accent" />
+              <p className="text-base leading-snug">{metric.description}</p>
+            </div>
+          </ScrollReveal>
+        ))}
       </div>
     </div>
   </section>
