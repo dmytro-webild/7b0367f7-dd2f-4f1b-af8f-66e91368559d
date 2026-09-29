@@ -17,17 +17,17 @@ export default function SolutionsSection(): React.JSX.Element {
             {
               title: "Custom Webild Websites",
               description: "Speed-optimized, mobile-friendly landing pages built to drive phone calls, bookings, and foot traffic.",
-              imageSrc: "http://img.b2bpic.net/free-photo/modern-smartphone-with-live-abstract-wallpaper-coming-out-screen_23-2151033636.jpg",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3IPz41RWpJWNDIsoCtqQCPjurCH/uploaded-1788316897989-0qgmzxdn.png",
             },
             {
               title: "Smart NFC Cards",
               description: "Instant 1-tap cards for Google Reviews, digital menus, or opening your website without typing URLs.",
-              imageSrc: "http://img.b2bpic.net/free-photo/front-view-young-female-courier-blue-uniform-black-gloves-black-mask-holding-phone-white-card_140725-23459.jpg",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3IPz41RWpJWNDIsoCtqQCPjurCH/uploaded-1790698605161-f6wf3q4r.jpg",
             },
             {
               title: "Custom Posters & Print",
               description: "High-impact physical posters and table-tents integrated with QR and NFC technology for maximum conversion.",
-              imageSrc: "http://img.b2bpic.net/free-photo/high-angle-hand-holding-device_23-2149340927.jpg",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3IPz41RWpJWNDIsoCtqQCPjurCH/uploaded-1790698689006-set49v3k.jpg",
             },
           ]}
           textAnimation="slide-up"

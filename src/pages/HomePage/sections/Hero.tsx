@@ -11,7 +11,7 @@ export default function HeroSection(): React.JSX.Element {
         <SectionErrorBoundary name="hero">
               <HeroSplit
           tag="Elevate Your Local Presence"
-          title="Turn One-Time Visitors Into Repeat Customers."
+          title="Bring loyalty to you"
           description="Webild websites, 1-tap NFC review & menu cards, and digital wallet loyalty systems designed for local businesses."
           primaryButton={{
             text: "Get a Free Quote",
@@ -21,7 +21,7 @@ export default function HeroSection(): React.JSX.Element {
             text: "Explore NFC Cards",
             href: "#solutions",
           }}
-          imageSrc="https://storage.googleapis.com/webild/users/user_3IPz41RWpJWNDIsoCtqQCPjurCH/uploaded-1788316287709-e04ygnt7.jpg"
+          imageSrc="https://storage.googleapis.com/webild/users/user_3IPz41RWpJWNDIsoCtqQCPjurCH/uploaded-1790698460509-zf2twu9b.jpg"
           textAnimation="fade-blur"
         />
         </SectionErrorBoundary>
