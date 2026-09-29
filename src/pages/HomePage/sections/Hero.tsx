@@ -21,7 +21,7 @@ export default function HeroSection(): React.JSX.Element {
             text: "Explore NFC Cards",
             href: "#solutions",
           }}
-          imageSrc="http://img.b2bpic.net/free-photo/smiling-woman-looking-happy-her-credit-card-showing-horizontal-smartphone-screen-recommend-application-internet-store-standing-white-wall_176420-38672.jpg"
+          imageSrc="https://storage.googleapis.com/webild/users/user_3IPz41RWpJWNDIsoCtqQCPjurCH/uploaded-1788316287709-e04ygnt7.jpg"
           textAnimation="fade-blur"
         />
         </SectionErrorBoundary>
