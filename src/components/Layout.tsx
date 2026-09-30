@@ -51,24 +51,7 @@ export default function Layout() {
           title: "Company",
           items: [
             {
-              label: "About Us",
-              href: "#",
-            },
-            {
-              label: "Blog",
-              href: "#",
-            },
-          ],
-        },
-        {
-          title: "Resources",
-          items: [
-            {
-              label: "NFC Guide",
-              href: "#",
-            },
-            {
-              label: "Case Studies",
+              label: "About Me",
               href: "#",
             },
           ],
@@ -77,12 +60,8 @@ export default function Layout() {
           title: "Contact",
           items: [
             {
-              label: "hello@mochasites.com",
-              href: "mailto:hello@mochasites.com",
-            },
-            {
-              label: "+1 (555) 0123",
-              href: "tel:+15550123",
+              label: "aryan@mochasites.com",
+              href: "mailto:aryan@mochasites.com",
             },
           ],
         },
